@@ -1,12 +1,5 @@
 import Dot from './Dot';
-
-type TMessage = {
-  id: string
-  from: { name: string }
-  type: string
-  time: string
-  text?: string
-}
+import { TMessage } from './MessageHistory';
 
 
 export const Typing = ({ from, message }: { from: { name: string }, message: TMessage }) => {

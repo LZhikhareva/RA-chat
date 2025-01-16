@@ -2,7 +2,7 @@ import { Message } from "./Message";
 import { Response } from "./Response";
 import { Typing } from "./Typing";
 
-type TMessage = {
+export type TMessage = {
     id: string
     from: { name: string }
     type: string
